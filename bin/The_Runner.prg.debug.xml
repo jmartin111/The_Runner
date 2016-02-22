@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="13" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="18" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="30" pc="268435522" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="33" pc="268435539" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="34" pc="268435570" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="37" pc="268435601" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="38" pc="268435614" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="39" pc="268435627" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="40" pc="268435637" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="43" pc="268435647" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="44" pc="268435654" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="45" pc="268435671" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="46" pc="268435681" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="47" pc="268435706" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="48" pc="268435717" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="51" pc="268435733" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="52" pc="268435765" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="53" pc="268435772" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="56" pc="268435793" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="59" pc="268435860" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="60" pc="268435884" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="61" pc="268435898" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="62" pc="268435912" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="65" pc="268435946" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="66" pc="268435965" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="67" pc="268435998" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="68" pc="268436026" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="69" pc="268436045" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="70" pc="268436058" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="71" pc="268436082" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="72" pc="268436096" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="73" pc="268436136" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="76" pc="268436150" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="79" pc="268436170" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="80" pc="268436177" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="94" pc="268436215" symbol="dToR"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="8" pc="268436249" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="12" pc="268436270" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="17" pc="268436293" symbol="draw"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="18" pc="268436346" symbol="draw"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="7" pc="268436361" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="20" pc="268436388" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="25" pc="268436428" symbol="onSettingsChanged"/>
+<entry filename="Rez" lineNum="28" pc="268436447" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268436472" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="30" pc="268436499" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="32" pc="268436515" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="33" pc="268436529" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="34" pc="268436626" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268436641" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="36" pc="268436693" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="37" pc="268436739" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="38" pc="268436753" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="39" pc="268436850" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="40" pc="268436865" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="41" pc="268436917" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="42" pc="268436963" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="19" symbol="ColorDarkGray"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry field="true" id="23" symbol="AppName"/>
+<entry id="10" object="true" symbol="The_RunnerApp"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="22" symbol="ColorWhite"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="14" symbol="ColorLightGray"/>
+<entry id="12" module="true" symbol="Layouts"/>
+<entry field="true" id="20" symbol="MilitaryFormatTitle"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8" object="true" symbol="The_RunnerView"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="24" method="true" symbol="dToR"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry field="true" id="21" symbol="ColorBlack"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388641" module="true" symbol="Math"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry field="true" id="15" symbol="ColorBlue"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="9" object="true" symbol="Background"/>
+<entry field="true" id="16" symbol="ColorRed"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="17" symbol="ForegroundColorTitle"/>
+<entry field="true" id="18" symbol="BackgroundColorTitle"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436212" name="sDate" stackId="18" startPc="268435522"/>
+<entry endPc="268436212" name="timeFormat" stackId="9" startPc="268435522"/>
+<entry endPc="268436212" name="now" stackId="14" startPc="268435522"/>
+<entry endPc="268436212" name="hgt" stackId="6" startPc="268435522"/>
+<entry endPc="268436212" name="sDay" stackId="17" startPc="268435522"/>
+<entry endPc="268436212" name="bgClr" stackId="4" startPc="268435522"/>
+<entry endPc="268436212" name="timeString" stackId="12" startPc="268435522"/>
+<entry endPc="268436212" name="vTime" stackId="13" startPc="268435522"/>
+<entry endPc="268436212" name="wid" stackId="5" startPc="268435522"/>
+<entry endPc="268436212" name="clockTime" stackId="10" startPc="268435522"/>
+<entry endPc="268436212" name="fgClr" stackId="3" startPc="268435522"/>
+<entry endPc="268436212" name="actvInfo" stackId="2" startPc="268435522"/>
+<entry endPc="268436212" name="sDayOfWeek" stackId="16" startPc="268435522"/>
+<entry endPc="268436212" name="hours" stackId="11" startPc="268435522"/>
+<entry endPc="268436212" name="cY" stackId="8" startPc="268435522"/>
+<entry endPc="268436212" name="cX" stackId="7" startPc="268435522"/>
+<entry endPc="268436212" name="info" stackId="15" startPc="268435522"/>
+<entry endPc="268436212" name="mvBarHght" stackId="20" startPc="268435522"/>
+<entry endPc="268436212" name="vDate" stackId="19" startPc="268435522"/>
+<entry endPc="268436290" name="dictionary" stackId="1" startPc="268436249"/>
+<entry endPc="268437000" name="rez_cmp_local_label_DateLabel" stackId="7" startPc="268436447"/>
+<entry endPc="268437000" name="rez_cmp_local_label_DateLabel_font" stackId="6" startPc="268436447"/>
+<entry endPc="268437000" name="rez_cmp_local_label_DateLabel_fontHeight" stackId="8" startPc="268436447"/>
+<entry endPc="268437000" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="5" startPc="268436447"/>
+<entry endPc="268437000" name="rez_cmp_local_label_TimeLabel_font" stackId="3" startPc="268436447"/>
+<entry endPc="268437000" name="rez_cmp_local_label_TimeLabel" stackId="4" startPc="268436447"/>
+<entry endPc="268437000" name="rez_cmp_local_custom_drawable_CN06KMZOO7QKLITL8OYW" stackId="2" startPc="268436447"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="The_RunnerView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="The_RunnerView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="The_RunnerView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onUpdate" parent="The_RunnerView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="dToR" parent="The_RunnerView">
+<param id="deg"/>
+<documentation><![CDATA[<div class="description"> Convert degreees to radians<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onHide" parent="The_RunnerView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="The_RunnerView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="The_RunnerView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="The_RunnerApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="The_RunnerApp">
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="The_RunnerApp">
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="The_RunnerApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onSettingsChanged" parent="The_RunnerApp">
+<documentation><![CDATA[<div class="description"> New app settings have been received so trigger a UI update<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
