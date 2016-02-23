@@ -25,10 +25,7 @@ class The_RunnerView extends Ui.WatchFace {
     }
 
     //! Update the view
-    function onUpdate(dc) {
-    
-    	var actvInfo = Am.getInfo();
-    	//! The move bar levels trigger at 60/75/90/105/120 minutes.
+    function onUpdate(dc) {    	
     	
     	var fgClr = App.getApp().getProperty("FgColor");
 		var bgClr	= App.getApp().getProperty("BackgroundColor");
@@ -59,26 +56,43 @@ class The_RunnerView extends Ui.WatchFace {
         var vTime = View.findDrawableById("TimeLabel");
         vTime.setColor(fgClr);
         vTime.setText(timeString);
-        vTime.setLocation(cX/2+40, cY/2);
+        vTime.setLocation(cX-15, cY/2-25);
         
         //! Get the date
     	var now 		= Time.now();
 		var info 		= Date.info(now, Time.FORMAT_MEDIUM);		
 		var sDayOfWeek 	= info.day_of_week.toString().toUpper();
     	var sDay 		= info.day.toString();
-    	var sDate 		= sDayOfWeek + " " + sDay;
+    	var sMonth		= info.month.toString().toUpper();
+    	var sDate 		= sDayOfWeek + "\n" + sMonth + "\n" + sDay;
     	var vDate		= View.findDrawableById("DateLabel");
     	vDate.setText(sDate);
-    	vDate.setLocation(cX/2+40, cY/2+30);
+    	vDate.setLocation(cX-15, cY-15);
     	vDate.setColor(fgClr); 
+    	
+    	//! The move bar levels trigger at 60/75/90/105/120 minutes.
+    	var actvInfo	= Am.getInfo();
+    	var curSteps	= actvInfo.steps.toString();
+    	
+    	var vCurSteps	= View.findDrawableById("CurStps");
+    	var vHiSteps	= View.findDrawableById("HiStps");
+    	
+    	vCurSteps.setText("STEPS "+"| "+curSteps);
+    	vCurSteps.setColor(fgClr);
+    	vCurSteps.setLocation(cX+10, cY-10);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
         //dc.setPenWidth(2);
+		var mvLevel	  = actvInfo.moveBarLevel;
+		var mvBarTop  = cY - 70;
 		var mvBarHght = 140;
-        dc.drawRectangle(cX-5, cY-70, 10, mvBarHght);
-        //dc.fillRectangle(cX-5, cY-70, 10, (28*actvInfo.moveBarLevel));
+        dc.drawRectangle(cX - 3.5, mvBarTop, 7, mvBarHght);
+        dc.fillRectangle(cX-3.5, 
+        				 (cY + 70) - (28 * mvLevel),
+        				 7,
+        				 (28 * mvLevel));
         
         //dc.setPenWidth(10);        
         
