@@ -37,19 +37,20 @@ class The_RunnerView extends Ui.WatchFace {
 		var cY	= hgt/2;
 		
         // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
+        var timeFormat = null;
         var clockTime = Sys.getClockTime();
         var hours = clockTime.hour;
+        
         if (!Sys.getDeviceSettings().is24Hour) {
             if (hours > 12) {
+            	timeFormat = "$1$:$2$";
                 hours = hours - 12;
             }
-        } else {
-            if (App.getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
+        }else{
+        	timeFormat = "$1$$2$";
+            hours = hours.format("%02d");
         }
+        
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Draw the time
@@ -66,40 +67,50 @@ class The_RunnerView extends Ui.WatchFace {
     	var sMonth		= info.month.toString().toUpper();
     	var sDate 		= sDayOfWeek + "\n" + sMonth + "\n" + sDay;
     	var vDate		= View.findDrawableById("DateLabel");
+    	//! Draw the date
     	vDate.setText(sDate);
     	vDate.setLocation(cX-15, cY-15);
     	vDate.setColor(fgClr); 
     	
     	//! The move bar levels trigger at 60/75/90/105/120 minutes.
     	var actvInfo	= Am.getInfo();
-    	var curSteps	= actvInfo.steps.toString();
+    	var curSteps	= actvInfo.steps;
+    	var stepGoal	= (curSteps.toFloat() / 
+    					   actvInfo.stepGoal.toFloat()) * 100;
+    	Sys.println(stepGoal);
+    	var sStepGoal	= stepGoal.format("%.00f")+"%";
     	
     	var vCurSteps	= View.findDrawableById("CurStps");
-    	var vHiSteps	= View.findDrawableById("HiStps");
+    	var vStepGoal	= View.findDrawableById("StpGoal");
     	
     	vCurSteps.setText("STEPS "+"| "+curSteps);
     	vCurSteps.setColor(fgClr);
     	vCurSteps.setLocation(cX+10, cY-10);
+    	
+    	vStepGoal.setColor(fgClr);
+    	vStepGoal.setText(sStepGoal);
+    	vStepGoal.setLocation(cX+10, cY+10);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
         //dc.setPenWidth(2);
 		var mvLevel	  = actvInfo.moveBarLevel;
-		var mvBarTop  = cY - 70;
-		var mvBarHght = 140;
+		var mvBarTop  = cY - 72;
+		var mvBarHght = 142;
+		dc.setColor(Gfx.COLOR_BLUE, bgClr);
         dc.drawRectangle(cX - 3.5, mvBarTop, 7, mvBarHght);
-        dc.fillRectangle(cX-3.5, 
-        				 (cY + 70) - (28 * mvLevel),
-        				 7,
-        				 (28 * mvLevel));
-        
-        //dc.setPenWidth(10);        
+        dc.setColor(Gfx.COLOR_GREEN, bgClr);
+        dc.fillRectangle(cX-2.5, 
+        				(cY + 69) - (28 * mvLevel),
+        				 5,
+        				(28 * mvLevel));
         
         //ARC_COUNTER_CLOCKWISE = 0
 		//ARC_CLOCKWISE = 1
-		/*for(var i = 15; i < 360; i += 60) {
-        	dc.drawArc(cX, cY, cX-5, 0, (i), (i + 30));
+		/*dc.setColor(Gfx.COLOR_BLUE, bgClr);
+		for(var i = 15; i < 360; i += 60) {
+        	dc.drawArc(cX, cY, cX, 0, i, (i + 30));
         }*/
     }
     
