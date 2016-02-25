@@ -72,12 +72,11 @@ class The_RunnerView extends Ui.WatchFace {
     	vDate.setLocation(cX-15, cY-15);
     	vDate.setColor(fgClr); 
     	
-    	//! The move bar levels trigger at 60/75/90/105/120 minutes.
+    	//! Step counter and display
     	var actvInfo	= Am.getInfo();
     	var curSteps	= actvInfo.steps;
     	var stepGoal	= (curSteps.toFloat() / 
     					   actvInfo.stepGoal.toFloat()) * 100;
-    	Sys.println(stepGoal);
     	var sStepGoal	= stepGoal.format("%.00f")+"%";
     	
     	var vCurSteps	= View.findDrawableById("CurStps");
@@ -94,17 +93,37 @@ class The_RunnerView extends Ui.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
-        //dc.setPenWidth(2);
-		var mvLevel	  = actvInfo.moveBarLevel;
+        //! Battery
+        var stats = Sys.getSystemStats();
+    	var batt  = stats.battery.toNumber();
+    	var vBatt = View.findDrawableById("Battery");
+    	vBatt.setText(batt.toString());
+    	vBatt.setLocation(cX+45, cY-54);
+    	dc.setColor(fgClr, bgClr);
+    	dc.setPenWidth(3);
+    	dc.drawArc(cX+45, cY-45, 20, 1, 90, 90-(batt*3.6));
+    	if (batt == 100) {
+    		dc.drawArc(cX+45, cY-45, 20, 1, 90, 90);
+    	}
+    	
+    	//! The thin blue line
+    	dc.setColor(Gfx.COLOR_DK_BLUE, bgClr);
+    	dc.fillRectangle(cX-3.5, -5, 7, hgt+10);
+        dc.setColor(Gfx.COLOR_BLACK, bgClr);
+        dc.drawRectangle(cX-4, -5, 8, hgt+10);
+    
+    	//! Move bar
+		/*var mvLevel	  = actvInfo.moveBarLevel;
 		var mvBarTop  = cY - 72;
 		var mvBarHght = 142;
 		dc.setColor(Gfx.COLOR_BLUE, bgClr);
+		dc.setPenWidth(1);
         dc.drawRectangle(cX - 3.5, mvBarTop, 7, mvBarHght);
         dc.setColor(Gfx.COLOR_GREEN, bgClr);
         dc.fillRectangle(cX-2.5, 
         				(cY + 69) - (28 * mvLevel),
         				 5,
-        				(28 * mvLevel));
+        				(28 * mvLevel));*/
         
         //ARC_COUNTER_CLOCKWISE = 0
 		//ARC_CLOCKWISE = 1
