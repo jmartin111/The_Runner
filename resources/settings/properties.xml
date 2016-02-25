@@ -1,4 +1,3 @@
 <properties>
-    <property id="BackgroundColor" type="number">0x000000</property>
     <property id="FgColor" type="number">0xFF0000</property>
 </properties>

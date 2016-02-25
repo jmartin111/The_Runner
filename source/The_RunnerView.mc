@@ -28,8 +28,7 @@ class The_RunnerView extends Ui.WatchFace {
     function onUpdate(dc) {    	
     	
     	var fgClr = App.getApp().getProperty("FgColor");
-		var bgClr	= App.getApp().getProperty("BackgroundColor");
-
+    	
     	//! get some basic screen dimensions and coords
 		var wid = dc.getWidth();
 		var hgt	= dc.getHeight();
@@ -55,14 +54,18 @@ class The_RunnerView extends Ui.WatchFace {
         }
         
         var timeString = Lang.format(timeFormat, [hour, clock.min.format("%02d")]);
-
+		
+		//!
         // Draw the time
+		//!
         var vTime = View.findDrawableById("TimeLabel");
         vTime.setColor(fgClr);
         vTime.setText(timeString);
         vTime.setLocation(cX-15, cY/2-25);
         
+        //!
         //! Get the date
+		//!
     	var now 		= Time.now();
 		var info 		= Date.info(now, Time.FORMAT_MEDIUM);		
 		var sDayOfWeek 	= info.day_of_week.toString().toUpper();
@@ -70,12 +73,17 @@ class The_RunnerView extends Ui.WatchFace {
     	var sMonth		= info.month.toString().toUpper();
     	var sDate 		= sDayOfWeek + "\n" + sMonth + "\n" + sDay;
     	var vDate		= View.findDrawableById("DateLabel");
+    	
+    	//!
     	//! Draw the date
+		//!
     	vDate.setText(sDate);
     	vDate.setLocation(cX-15, cY-15);
     	vDate.setColor(fgClr); 
     	
+    	//!
     	//! Step counter and display
+		//!
     	var actvInfo	= Am.getInfo();
     	var curSteps	= actvInfo.steps;
     	var stepGoal	= (curSteps.toFloat() / 
@@ -92,37 +100,68 @@ class The_RunnerView extends Ui.WatchFace {
     	vStepGoal.setColor(fgClr);
     	vStepGoal.setText(sStepGoal);
     	vStepGoal.setLocation(cX+10, cY+10);
+    	
+    	//!
+    	//! Battery text
+		//!
+        var stats = Sys.getSystemStats();
+    	var batt  = stats.battery.toNumber();
+    	var vBatt = View.findDrawableById("Battery");
+    	vBatt.setText(batt.toString()+"%");
+    	vBatt.setColor(fgClr);
+    	vBatt.setLocation(cX+45, cY-54);   	
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
-        //! Battery
-        var stats = Sys.getSystemStats();
-    	var batt  = stats.battery.toNumber();
-    	var vBatt = View.findDrawableById("Battery");
-    	vBatt.setText(batt.toString());
-    	vBatt.setLocation(cX+45, cY-54);
-    	dc.setColor(fgClr, bgClr);
+        //!
+        //! Battery indicator
+		//!
+		dc.setPenWidth(1);
+		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
+		dc.drawCircle(cX+45, cY-45, 20);
     	dc.setPenWidth(3);
-    	dc.drawArc(cX+45, cY-45, 20, 1, 90, 90-(batt*3.6));
+    	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
+    	
+    	var arcStart 	= 90;
+    	var arcEnd	 	= 90-(batt*3.6);
+    	var x		 	= cX+45;
+    	var y			= cY-45;
+    	var radius		= 20;
+    	dc.drawArc(x, y, radius, 1, arcStart, arcEnd);
     	if (batt == 100) {
-    		dc.drawArc(cX+45, cY-45, 20, 1, 90, 90);
+    		dc.drawArc(x, y, radius, 1, 90, 90);
     	}
     	
+    	//!    	
+    	//! Draw point at leading edge of arc
+		//!
+
+		//! reverse polarity since the circle is drawn in a way
+		//! that takes the degrees to a negative value
+		var rads 	= dToR(-arcEnd);
+		var coords 	= calcCircumCoords(x, y, rads, radius);
+		dc.setPenWidth(5);
+		dc.setColor(fgClr, Gfx.COLOR_DK_GRAY);
+		dc.fillCircle(coords[0], coords[1], 3);
+    	
+    	//!
     	//! The thin blue line
-    	dc.setColor(Gfx.COLOR_DK_BLUE, bgClr);
+		//!
+    	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
     	dc.fillRectangle(cX-3.5, -5, 7, hgt+10);
-        dc.setColor(Gfx.COLOR_BLACK, bgClr);
+    	dc.setPenWidth(3);
+        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_DK_GRAY);
         dc.drawRectangle(cX-4, -5, 8, hgt+10);
     
     	//! Move bar
 		/*var mvLevel	  = actvInfo.moveBarLevel;
 		var mvBarTop  = cY - 72;
 		var mvBarHght = 142;
-		dc.setColor(Gfx.COLOR_BLUE, bgClr);
+		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
 		dc.setPenWidth(1);
         dc.drawRectangle(cX - 3.5, mvBarTop, 7, mvBarHght);
-        dc.setColor(Gfx.COLOR_GREEN, bgClr);
+        dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_DK_GRAY);
         dc.fillRectangle(cX-2.5, 
         				(cY + 69) - (28 * mvLevel),
         				 5,
@@ -130,10 +169,20 @@ class The_RunnerView extends Ui.WatchFace {
         
         //ARC_COUNTER_CLOCKWISE = 0
 		//ARC_CLOCKWISE = 1
-		/*dc.setColor(Gfx.COLOR_BLUE, bgClr);
+		/*dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
 		for(var i = 15; i < 360; i += 60) {
         	dc.drawArc(cX, cY, cX, 0, i, (i + 30));
         }*/
+    }
+    
+    //! calculate circumference coordinates
+    function calcCircumCoords(x, y, rads, radius) {
+    	//! x = cx + r * cos(a)
+		//! y = cy + r * sin(a)
+    	var coords = new[2];
+    	coords[0] = x + radius * Math.cos(rads);
+    	coords[1] = y + radius * Math.sin(rads);
+    	return coords;    	
     }
     
     //! Convert degreees to radians
