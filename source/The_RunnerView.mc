@@ -37,21 +37,24 @@ class The_RunnerView extends Ui.WatchFace {
 		var cY	= hgt/2;
 		
         // Get the current time and format it correctly
-        var timeFormat = null;
-        var clockTime = Sys.getClockTime();
-        var hours = clockTime.hour;
-        
-        if (!Sys.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-            	timeFormat = "$1$:$2$";
-                hours = hours - 12;
+        //get and format time info
+		var timeFormat 	= "$1$:$2$";
+    	var clock 		= Sys.getClockTime();
+		var hour		= clock.hour; //define this for use below
+    	
+    	if (!Sys.getDeviceSettings().is24Hour) {
+            if (hour > 12) {
+                hour = hour - 12;
             }
-        }else{
+            if (hour == 0) {
+            	hour = 12;
+            }
+        } else {
         	timeFormat = "$1$$2$";
-            hours = hours.format("%02d");
+            hour = hour.format("%02d");
         }
         
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+        var timeString = Lang.format(timeFormat, [hour, clock.min.format("%02d")]);
 
         // Draw the time
         var vTime = View.findDrawableById("TimeLabel");
