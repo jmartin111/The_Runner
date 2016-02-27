@@ -61,7 +61,7 @@ class The_RunnerView extends Ui.WatchFace {
         var vTime = View.findDrawableById("TimeLabel");
         vTime.setColor(fgClr);
         vTime.setText(timeString);
-        vTime.setLocation(cX-15, cY/2-25);
+        vTime.setLocation(cX-15, cY-75);
         
         //!
         //! Get the date
@@ -70,81 +70,89 @@ class The_RunnerView extends Ui.WatchFace {
 		var info 		= Date.info(now, Time.FORMAT_MEDIUM);		
 		var sDayOfWeek 	= info.day_of_week.toString().toUpper();
     	var sDay 		= info.day.toString();
-    	var sMonth		= info.month.toString().toUpper();
-    	var sDate 		= sDayOfWeek + "\n" + sMonth + "\n" + sDay;
+    	//var sMonth		= info.month.toString().toUpper();
+    	var sDate 		= sDayOfWeek + " " + sDay;
     	var vDate		= View.findDrawableById("DateLabel");
     	
     	//!
     	//! Draw the date
 		//!
     	vDate.setText(sDate);
-    	vDate.setLocation(cX-15, cY-15);
+    	vDate.setLocation(cX-15, cY+25);
     	vDate.setColor(fgClr); 
     	
     	//!
-    	//! Step counter and display
+    	//! Step data
 		//!
     	var actvInfo	= Am.getInfo();
     	var curSteps	= actvInfo.steps;
-    	var stepGoal	= (curSteps.toFloat() / 
-    					   actvInfo.stepGoal.toFloat()) * 100;
-    	var sStepGoal	= stepGoal.format("%.00f")+"%";
+    	var stepGoal	= actvInfo.stepGoal;
+    	var pctCmplt	= curSteps.toFloat() / stepGoal.toFloat();
     	
     	var vCurSteps	= View.findDrawableById("CurStps");
-    	var vStepGoal	= View.findDrawableById("StpGoal");
     	
-    	vCurSteps.setText("STEPS "+"| "+curSteps);
+    	vCurSteps.setText(curSteps.toString());
     	vCurSteps.setColor(fgClr);
-    	vCurSteps.setLocation(cX+10, cY-10);
-    	
-    	vStepGoal.setColor(fgClr);
-    	vStepGoal.setText(sStepGoal);
-    	vStepGoal.setLocation(cX+10, cY+10);
+    	vCurSteps.setLocation(cX+45, cY+34);
     	
     	//!
-    	//! Battery text
+    	//! Battery data
 		//!
         var stats = Sys.getSystemStats();
     	var batt  = stats.battery.toNumber();
     	var vBatt = View.findDrawableById("Battery");
     	vBatt.setText(batt.toString()+"%");
     	vBatt.setColor(fgClr);
-    	vBatt.setLocation(cX+45, cY-54);   	
+    	vBatt.setLocation(cX+45, cY-56);   	
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
         //!
         //! Battery indicator
-		//!
-		dc.setPenWidth(1);
-		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
-		dc.drawCircle(cX+45, cY-45, 20);
-    	dc.setPenWidth(3);
-    	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
-    	
+		//!    	
     	var arcStart 	= 90;
     	var arcEnd	 	= 90-(batt*3.6);
     	var x		 	= cX+45;
     	var y			= cY-45;
-    	var radius		= 20;
+    	var radius		= 30;
+    	
+    	var battClr = Gfx.COLOR_RED;
+    	if (batt <= 50) { battClr = Gfx.COLOR_GREEN; }
+    	if (batt <= 30) { battClr = Gfx.COLOR_YELLOW; }
+    	if (batt <= 15) { battClr = Gfx.COLOR_RED; }
+    	dc.setPenWidth(1);
+		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_DK_GRAY);
+		dc.drawCircle(x, y, radius);
+    	dc.setPenWidth(2);
+    	dc.setColor(battClr, Gfx.COLOR_DK_GRAY);
     	dc.drawArc(x, y, radius, 1, arcStart, arcEnd);
     	if (batt == 100) {
     		dc.drawArc(x, y, radius, 1, 90, 90);
     	}
+    	drawPoint(dc, arcEnd, x, y, radius, fgClr);
+        
+        //!
+        //! Step indicator
+		//!    	
+    	arcStart 	= 90;
+    	arcEnd	 	= 90-(360*pctCmplt);
+    	x		 	= cX+45;
+    	y			= cY+45;
+    	radius		= 30;
     	
-    	//!    	
-    	//! Draw point at leading edge of arc
-		//!
-
-		//! reverse polarity since the circle is drawn in a way
-		//! that takes the degrees to a negative value
-		var rads 	= dToR(-arcEnd);
-		var coords 	= calcCircumCoords(x, y, rads, radius);
-		dc.setPenWidth(5);
-		dc.setColor(fgClr, Gfx.COLOR_DK_GRAY);
-		dc.fillCircle(coords[0], coords[1], 3);
-    	
+    	dc.setPenWidth(1);
+		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_DK_GRAY);
+		dc.drawCircle(x, y, radius);
+    	dc.setPenWidth(2);
+    	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
+    	dc.drawArc(x, y, radius, 1, arcStart, arcEnd);
+    	if (pctCmplt >= 1) {
+    		dc.drawArc(x, y, radius, 1, 90, 90);
+    	}
+    	drawPoint(dc, arcEnd, x, y, radius, fgClr);
+    	//drawDist(dc, arcEnd, x, y, radius+20, fgClr);
+		
     	//!
     	//! The thin blue line
 		//!
@@ -174,6 +182,27 @@ class The_RunnerView extends Ui.WatchFace {
         	dc.drawArc(cX, cY, cX, 0, i, (i + 30));
         }*/
     }
+    
+    function drawDist(dc, arcEnd, x, y, radius, fgClr) {
+    	var rads 	= dToR(-arcEnd);
+		var coords 	= calcCircumCoords(x, y, rads, radius);
+		var vDist 	= View.findDrawableById("Dist");
+		var distKm	= Am.getInfo().distance.toFloat() / 100000;
+		var distMi	= distKm * 0.6213;
+		vDist.setText(distMi.format("%.02f"));
+		vDist.setLocation(coords[0], coords[1]);
+		vDist.setColor(fgClr, Gfx.COLOR_DK_GRAY);
+	}
+    
+    //! Draw point at leading edge of arc
+		//! reverse polarity since the circle is drawn in a way
+		//! that takes the degrees to a negative value
+	function drawPoint(dc, arcEnd, x, y, radius, fgClr) {
+		var rads 	= dToR(-arcEnd);
+		var coords 	= calcCircumCoords(x, y, rads, radius);
+		dc.setColor(fgClr, Gfx.COLOR_DK_GRAY);
+		dc.fillCircle(coords[0], coords[1], 3.5);
+	}
     
     //! calculate circumference coordinates
     function calcCircumCoords(x, y, rads, radius) {
