@@ -1,175 +1,178 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="13" pc="268435458" symbol="initialize"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="18" pc="268435479" symbol="onLayout"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="30" pc="268435522" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="33" pc="268435553" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="34" pc="268435566" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="35" pc="268435579" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="36" pc="268435589" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="40" pc="268435599" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="41" pc="268435606" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="42" pc="268435623" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="44" pc="268435633" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="45" pc="268435658" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="46" pc="268435669" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="48" pc="268435682" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="49" pc="268435693" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="52" pc="268435706" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="53" pc="268435713" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="56" pc="268435731" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="61" pc="268435798" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="62" pc="268435822" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="63" pc="268435836" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="64" pc="268435850" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="69" pc="268435878" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="70" pc="268435897" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="71" pc="268435930" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="72" pc="268435958" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="74" pc="268435977" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="75" pc="268435990" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="80" pc="268436014" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="81" pc="268436028" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="82" pc="268436056" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="87" pc="268436070" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="88" pc="268436087" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="89" pc="268436097" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="90" pc="268436107" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="92" pc="268436132" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="94" pc="268436156" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="95" pc="268436179" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="96" pc="268436193" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="101" pc="268436221" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="102" pc="268436238" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="103" pc="268436257" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="104" pc="268436281" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="105" pc="268436310" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="106" pc="268436324" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="16" pc="268435458" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="21" pc="268435479" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="22" pc="268435516" symbol="onLayout"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="33" pc="268435565" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="36" pc="268435596" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="37" pc="268435609" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="38" pc="268435622" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="39" pc="268435632" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="43" pc="268435642" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="44" pc="268435649" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="45" pc="268435666" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="47" pc="268435676" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="48" pc="268435701" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="49" pc="268435712" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="51" pc="268435725" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="52" pc="268435736" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="55" pc="268435749" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="56" pc="268435756" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="59" pc="268435774" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="64" pc="268435841" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="65" pc="268435865" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="66" pc="268435879" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="67" pc="268435893" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="72" pc="268435915" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="73" pc="268435934" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="74" pc="268435967" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="75" pc="268435995" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="77" pc="268436014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="78" pc="268436027" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="83" pc="268436051" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="84" pc="268436065" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="85" pc="268436084" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="90" pc="268436098" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="91" pc="268436115" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="92" pc="268436125" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="93" pc="268436135" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="95" pc="268436160" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="97" pc="268436184" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="98" pc="268436207" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="99" pc="268436221" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="104" pc="268436249" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="105" pc="268436266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="106" pc="268436285" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="107" pc="268436309" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="108" pc="268436338" symbol="onUpdate"/>
 <entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="109" pc="268436352" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="114" pc="268436372" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="115" pc="268436379" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="116" pc="268436395" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="117" pc="268436405" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="118" pc="268436415" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="120" pc="268436422" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="121" pc="268436436" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="121" pc="268436447" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="122" pc="268436464" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="122" pc="268436475" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="123" pc="268436492" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="123" pc="268436503" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="124" pc="268436520" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="125" pc="268436537" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="126" pc="268436573" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="127" pc="268436591" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="128" pc="268436608" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="129" pc="268436634" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="130" pc="268436661" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="131" pc="268436672" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="133" pc="268436708" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="138" pc="268436732" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="139" pc="268436739" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="140" pc="268436755" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="141" pc="268436765" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="142" pc="268436775" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="144" pc="268436782" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="145" pc="268436799" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="146" pc="268436835" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="147" pc="268436853" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="148" pc="268436870" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="149" pc="268436906" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="150" pc="268436933" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="151" pc="268436944" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="153" pc="268436980" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="159" pc="268437004" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="160" pc="268437040" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="161" pc="268437084" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="162" pc="268437101" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="163" pc="268437137" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="187" pc="268437184" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="188" pc="268437205" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="189" pc="268437226" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="190" pc="268437250" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="191" pc="268437288" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="192" pc="268437298" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="193" pc="268437326" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="194" pc="268437354" symbol="drawDist"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="201" pc="268437383" symbol="drawPoint"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="202" pc="268437404" symbol="drawPoint"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="203" pc="268437425" symbol="drawPoint"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="204" pc="268437451" symbol="drawPoint"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="211" pc="268437487" symbol="calcCircumCoords"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="212" pc="268437495" symbol="calcCircumCoords"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="213" pc="268437526" symbol="calcCircumCoords"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="214" pc="268437557" symbol="calcCircumCoords"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="219" pc="268437563" symbol="dToR"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="8" pc="268437597" symbol="initialize"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="12" pc="268437618" symbol="initialize"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="17" pc="268437641" symbol="draw"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="18" pc="268437677" symbol="draw"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="7" pc="268437692" symbol="initialize"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="20" pc="268437719" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="25" pc="268437759" symbol="onSettingsChanged"/>
-<entry filename="Rez" lineNum="25" pc="268437778" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="26" pc="268437803" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="27" pc="268437830" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="29" pc="268437846" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="30" pc="268437860" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="31" pc="268437957" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="32" pc="268437972" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="33" pc="268438024" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="34" pc="268438070" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="35" pc="268438084" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="36" pc="268438181" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="37" pc="268438196" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="38" pc="268438248" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="39" pc="268438294" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="40" pc="268438308" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="41" pc="268438405" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="42" pc="268438420" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="43" pc="268438472" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="44" pc="268438518" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="45" pc="268438532" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="46" pc="268438629" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="47" pc="268438644" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="48" pc="268438696" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="49" pc="268438742" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="50" pc="268438756" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="51" pc="268438853" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="52" pc="268438868" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="53" pc="268438920" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="54" pc="268438966" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="112" pc="268436380" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="114" pc="268436400" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="119" pc="268436454" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="120" pc="268436461" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="121" pc="268436477" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="122" pc="268436487" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="123" pc="268436497" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="125" pc="268436504" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="126" pc="268436518" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="126" pc="268436529" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="127" pc="268436546" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="127" pc="268436557" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="128" pc="268436574" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="128" pc="268436585" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="129" pc="268436602" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="130" pc="268436619" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="131" pc="268436655" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="132" pc="268436673" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="133" pc="268436690" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="134" pc="268436716" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="135" pc="268436743" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="136" pc="268436754" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="138" pc="268436790" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="143" pc="268436814" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="144" pc="268436821" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="145" pc="268436837" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="146" pc="268436847" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="147" pc="268436857" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="149" pc="268436864" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="150" pc="268436881" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="151" pc="268436917" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="152" pc="268436935" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="153" pc="268436952" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="154" pc="268436988" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="155" pc="268437015" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="156" pc="268437026" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="158" pc="268437062" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="165" pc="268437086" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="166" pc="268437122" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="167" pc="268437166" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="168" pc="268437183" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="169" pc="268437219" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="193" pc="268437266" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="194" pc="268437287" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="195" pc="268437308" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="196" pc="268437332" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="197" pc="268437370" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="198" pc="268437380" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="199" pc="268437408" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="200" pc="268437436" symbol="drawDist"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="207" pc="268437465" symbol="drawPoint"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="208" pc="268437486" symbol="drawPoint"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="209" pc="268437507" symbol="drawPoint"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="210" pc="268437533" symbol="drawPoint"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="217" pc="268437569" symbol="calcCircumCoords"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="218" pc="268437577" symbol="calcCircumCoords"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="219" pc="268437608" symbol="calcCircumCoords"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="220" pc="268437639" symbol="calcCircumCoords"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerView.mc" lineNum="225" pc="268437645" symbol="dToR"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="8" pc="268437679" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="12" pc="268437700" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="17" pc="268437723" symbol="draw"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerBackground.mc" lineNum="18" pc="268437759" symbol="draw"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="7" pc="268437774" symbol="initialize"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="20" pc="268437801" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="25" pc="268437841" symbol="onSettingsChanged"/>
+<entry filename="Rez" lineNum="25" pc="268437860" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268437885" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268437912" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="29" pc="268437928" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="30" pc="268437942" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="31" pc="268438039" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="32" pc="268438054" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="33" pc="268438106" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="34" pc="268438152" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268438166" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="36" pc="268438263" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="37" pc="268438278" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="38" pc="268438330" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="39" pc="268438376" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="40" pc="268438390" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="41" pc="268438487" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="42" pc="268438502" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="43" pc="268438554" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="44" pc="268438600" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="45" pc="268438614" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="46" pc="268438711" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="47" pc="268438726" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="48" pc="268438778" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="49" pc="268438824" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="50" pc="268438838" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="51" pc="268438935" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="52" pc="268438950" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="53" pc="268439002" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="54" pc="268439048" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="15" symbol="ColorDarkGray"/>
+<entry field="true" id="16" symbol="ColorDarkGray"/>
 <entry id="11" module="true" symbol="Menus"/>
 <entry field="true" id="20" symbol="AppName"/>
 <entry id="10" object="true" symbol="The_RunnerApp"/>
-<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry field="true" id="14" symbol="LauncherIcon"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="13" symbol="BadgeIcon"/>
 <entry field="true" id="19" symbol="ColorWhite"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="8389347" symbol="color"/>
 <entry id="12" module="true" symbol="Layouts"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="21" method="true" symbol="drawDist"/>
+<entry id="22" method="true" symbol="drawDist"/>
 <entry id="8" object="true" symbol="The_RunnerView"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry id="22" method="true" symbol="calcCircumCoords"/>
+<entry id="23" method="true" symbol="calcCircumCoords"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-<entry id="23" method="true" symbol="dToR"/>
+<entry id="24" method="true" symbol="dToR"/>
 <entry field="true" id="18" symbol="ColorYellow"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
-<entry field="true" id="16" symbol="ColorBlack"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8388641" module="true" symbol="Math"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
 <entry id="8388769" module="true" symbol="Rez"/>
+<entry id="21" symbol="iBadge"/>
 <entry id="8389348" symbol="font"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="9" object="true" symbol="Background"/>
@@ -179,66 +182,66 @@
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389180" method="true" symbol="drawPoint"/>
-<entry field="true" id="14" symbol="ForegroundColorTitle"/>
+<entry field="true" id="15" symbol="ForegroundColorTitle"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 </symbolTable>
 <localVars>
-<entry endPc="268437181" name="sDate" stackId="16" startPc="268435522"/>
-<entry endPc="268437181" name="timeFormat" stackId="7" startPc="268435522"/>
-<entry endPc="268437181" name="stepGoal" stackId="20" startPc="268435522"/>
-<entry endPc="268437181" name="now" stackId="12" startPc="268435522"/>
-<entry endPc="268437181" name="hgt" stackId="4" startPc="268435522"/>
-<entry endPc="268437181" name="arcStart" stackId="26" startPc="268435522"/>
-<entry endPc="268437181" name="sDay" stackId="15" startPc="268435522"/>
-<entry endPc="268437181" name="radius" stackId="30" startPc="268435522"/>
-<entry endPc="268437181" name="batt" stackId="24" startPc="268435522"/>
-<entry endPc="268437181" name="hour" stackId="9" startPc="268435522"/>
-<entry endPc="268437181" name="vBatt" stackId="25" startPc="268435522"/>
-<entry endPc="268437181" name="timeString" stackId="10" startPc="268435522"/>
-<entry endPc="268437181" name="vTime" stackId="11" startPc="268435522"/>
-<entry endPc="268437181" name="arcEnd" stackId="27" startPc="268435522"/>
-<entry endPc="268437181" name="y" stackId="29" startPc="268435522"/>
-<entry endPc="268437181" name="x" stackId="28" startPc="268435522"/>
-<entry endPc="268437181" name="wid" stackId="3" startPc="268435522"/>
-<entry endPc="268437181" name="pctCmplt" stackId="21" startPc="268435522"/>
-<entry endPc="268437181" name="fgClr" stackId="2" startPc="268435522"/>
-<entry endPc="268437181" name="actvInfo" stackId="18" startPc="268435522"/>
-<entry endPc="268437181" name="vCurSteps" stackId="22" startPc="268435522"/>
-<entry endPc="268437181" name="battClr" stackId="31" startPc="268435522"/>
-<entry endPc="268437181" name="sDayOfWeek" stackId="14" startPc="268435522"/>
-<entry endPc="268437181" name="cY" stackId="6" startPc="268435522"/>
-<entry endPc="268437181" name="cX" stackId="5" startPc="268435522"/>
-<entry endPc="268437181" name="info" stackId="13" startPc="268435522"/>
-<entry endPc="268437181" name="curSteps" stackId="19" startPc="268435522"/>
-<entry endPc="268437181" name="stats" stackId="23" startPc="268435522"/>
-<entry endPc="268437181" name="vDate" stackId="17" startPc="268435522"/>
-<entry endPc="268437181" name="clock" stackId="8" startPc="268435522"/>
-<entry endPc="268437380" name="distMi" stackId="11" startPc="268437184"/>
-<entry endPc="268437380" name="rads" stackId="7" startPc="268437184"/>
-<entry endPc="268437380" name="distKm" stackId="10" startPc="268437184"/>
-<entry endPc="268437380" name="coords" stackId="8" startPc="268437184"/>
-<entry endPc="268437380" name="vDist" stackId="9" startPc="268437184"/>
-<entry endPc="268437484" name="rads" stackId="7" startPc="268437383"/>
-<entry endPc="268437484" name="coords" stackId="8" startPc="268437383"/>
-<entry endPc="268437560" name="coords" stackId="5" startPc="268437487"/>
-<entry endPc="268437638" name="dictionary" stackId="1" startPc="268437597"/>
-<entry endPc="268439033" name="rez_cmp_local_label_DateLabel_font" stackId="6" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_TimeLabel" stackId="4" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_CurStps" stackId="10" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_DateLabel_fontHeight" stackId="8" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_Dist_fontHeight" stackId="17" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_Battery" stackId="13" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_custom_drawable_3EAMHVK2R8QTGXC2CS7R" stackId="2" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_DateLabel" stackId="7" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_Dist" stackId="16" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_CurStps_fontHeight" stackId="11" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_CurStps_font" stackId="9" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_Dist_font" stackId="15" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_Battery_fontHeight" stackId="14" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_TimeLabel_font" stackId="3" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="5" startPc="268437778"/>
-<entry endPc="268439033" name="rez_cmp_local_label_Battery_font" stackId="12" startPc="268437778"/>
+<entry endPc="268437263" name="sDate" stackId="16" startPc="268435565"/>
+<entry endPc="268437263" name="timeFormat" stackId="7" startPc="268435565"/>
+<entry endPc="268437263" name="stepGoal" stackId="20" startPc="268435565"/>
+<entry endPc="268437263" name="now" stackId="12" startPc="268435565"/>
+<entry endPc="268437263" name="hgt" stackId="4" startPc="268435565"/>
+<entry endPc="268437263" name="arcStart" stackId="26" startPc="268435565"/>
+<entry endPc="268437263" name="sDay" stackId="15" startPc="268435565"/>
+<entry endPc="268437263" name="radius" stackId="30" startPc="268435565"/>
+<entry endPc="268437263" name="batt" stackId="24" startPc="268435565"/>
+<entry endPc="268437263" name="hour" stackId="9" startPc="268435565"/>
+<entry endPc="268437263" name="vBatt" stackId="25" startPc="268435565"/>
+<entry endPc="268437263" name="timeString" stackId="10" startPc="268435565"/>
+<entry endPc="268437263" name="vTime" stackId="11" startPc="268435565"/>
+<entry endPc="268437263" name="arcEnd" stackId="27" startPc="268435565"/>
+<entry endPc="268437263" name="y" stackId="29" startPc="268435565"/>
+<entry endPc="268437263" name="x" stackId="28" startPc="268435565"/>
+<entry endPc="268437263" name="wid" stackId="3" startPc="268435565"/>
+<entry endPc="268437263" name="pctCmplt" stackId="21" startPc="268435565"/>
+<entry endPc="268437263" name="fgClr" stackId="2" startPc="268435565"/>
+<entry endPc="268437263" name="actvInfo" stackId="18" startPc="268435565"/>
+<entry endPc="268437263" name="vCurSteps" stackId="22" startPc="268435565"/>
+<entry endPc="268437263" name="battClr" stackId="31" startPc="268435565"/>
+<entry endPc="268437263" name="sDayOfWeek" stackId="14" startPc="268435565"/>
+<entry endPc="268437263" name="cY" stackId="6" startPc="268435565"/>
+<entry endPc="268437263" name="cX" stackId="5" startPc="268435565"/>
+<entry endPc="268437263" name="info" stackId="13" startPc="268435565"/>
+<entry endPc="268437263" name="curSteps" stackId="19" startPc="268435565"/>
+<entry endPc="268437263" name="stats" stackId="23" startPc="268435565"/>
+<entry endPc="268437263" name="vDate" stackId="17" startPc="268435565"/>
+<entry endPc="268437263" name="clock" stackId="8" startPc="268435565"/>
+<entry endPc="268437462" name="distMi" stackId="11" startPc="268437266"/>
+<entry endPc="268437462" name="rads" stackId="7" startPc="268437266"/>
+<entry endPc="268437462" name="distKm" stackId="10" startPc="268437266"/>
+<entry endPc="268437462" name="coords" stackId="8" startPc="268437266"/>
+<entry endPc="268437462" name="vDist" stackId="9" startPc="268437266"/>
+<entry endPc="268437566" name="rads" stackId="7" startPc="268437465"/>
+<entry endPc="268437566" name="coords" stackId="8" startPc="268437465"/>
+<entry endPc="268437642" name="coords" stackId="5" startPc="268437569"/>
+<entry endPc="268437720" name="dictionary" stackId="1" startPc="268437679"/>
+<entry endPc="268439115" name="rez_cmp_local_label_DateLabel_font" stackId="6" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_TimeLabel" stackId="4" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_CurStps" stackId="10" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_DateLabel_fontHeight" stackId="8" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_Dist_fontHeight" stackId="17" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_Battery" stackId="13" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_DateLabel" stackId="7" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_custom_drawable_OQVFTW1GQKUY5ZJ9Z6GO" stackId="2" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_Dist" stackId="16" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_CurStps_fontHeight" stackId="11" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_CurStps_font" stackId="9" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_Dist_font" stackId="15" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_Battery_fontHeight" stackId="14" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_TimeLabel_font" stackId="3" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="5" startPc="268437860"/>
+<entry endPc="268439115" name="rez_cmp_local_label_Battery_font" stackId="12" startPc="268437860"/>
 </localVars>
 <annotations/>
 <functions>

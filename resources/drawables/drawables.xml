@@ -1,3 +1,10 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="BadgeIcon" x="center" y="center" filename="badge1.png" dithering="none" >
+    	<palette disableTransparency="false">
+            <color>FFD700</color>
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
 </drawables>

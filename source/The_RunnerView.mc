@@ -6,8 +6,11 @@ using Toybox.Application as App;
 using Toybox.Math as Math;
 using Toybox.ActivityMonitor as Am;
 using Toybox.Time.Gregorian as Date;
+using Toybox.Activity as A;
 
 class The_RunnerView extends Ui.WatchFace {
+
+	hidden var iBadge = null;
 
     function initialize() {
         WatchFace.initialize();
@@ -16,6 +19,7 @@ class The_RunnerView extends Ui.WatchFace {
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
+        iBadge = Ui.loadResource(Rez.Drawables.BadgeIcon);
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -26,7 +30,6 @@ class The_RunnerView extends Ui.WatchFace {
 
     //! Update the view
     function onUpdate(dc) {    	
-    	
     	var fgClr = App.getApp().getProperty("FgColor");
     	
     	//! get some basic screen dimensions and coords
@@ -61,7 +64,7 @@ class The_RunnerView extends Ui.WatchFace {
         var vTime = View.findDrawableById("TimeLabel");
         vTime.setColor(fgClr);
         vTime.setText(timeString);
-        vTime.setLocation(cX-15, cY-75);
+        vTime.setLocation(cX, cY-65);
         
         //!
         //! Get the date
@@ -78,7 +81,7 @@ class The_RunnerView extends Ui.WatchFace {
     	//! Draw the date
 		//!
     	vDate.setText(sDate);
-    	vDate.setLocation(cX-15, cY+25);
+    	vDate.setLocation(cX, 20);
     	vDate.setColor(fgClr); 
     	
     	//!
@@ -103,18 +106,20 @@ class The_RunnerView extends Ui.WatchFace {
     	var vBatt = View.findDrawableById("Battery");
     	vBatt.setText(batt.toString()+"%");
     	vBatt.setColor(fgClr);
-    	vBatt.setLocation(cX+45, cY-56);   	
+    	vBatt.setLocation(cX-45, cY+34);   	
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+        
+        dc.drawBitmap(cX - iBadge.getWidth()/2, cY+70, iBadge);
         
         //!
         //! Battery indicator
 		//!    	
     	var arcStart 	= 90;
     	var arcEnd	 	= 90-(batt*3.6);
-    	var x		 	= cX+45;
-    	var y			= cY-45;
+    	var x		 	= cX-45;
+    	var y			= cY+45;
     	var radius		= 30;
     	
     	var battClr = Gfx.COLOR_RED;
@@ -145,22 +150,23 @@ class The_RunnerView extends Ui.WatchFace {
 		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_DK_GRAY);
 		dc.drawCircle(x, y, radius);
     	dc.setPenWidth(2);
-    	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
+    	dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
     	dc.drawArc(x, y, radius, 1, arcStart, arcEnd);
     	if (pctCmplt >= 1) {
     		dc.drawArc(x, y, radius, 1, 90, 90);
     	}
     	drawPoint(dc, arcEnd, x, y, radius, fgClr);
+
     	//drawDist(dc, arcEnd, x, y, radius+20, fgClr);
 		
     	//!
     	//! The thin blue line
-		//!
+		//! Gold - 0xFFD700
     	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
-    	dc.fillRectangle(cX-3.5, -5, 7, hgt+10);
-    	dc.setPenWidth(3);
-        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_DK_GRAY);
-        dc.drawRectangle(cX-4, -5, 8, hgt+10);
+    	dc.fillRectangle(-5, cY-3.5, wid+5, 7);
+    	dc.setPenWidth(2);
+        dc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);
+        dc.drawRectangle(-5, cY-4, wid+7, 8);
     
     	//! Move bar
 		/*var mvLevel	  = actvInfo.moveBarLevel;
