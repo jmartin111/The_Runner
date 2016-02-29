@@ -6,7 +6,7 @@ using Toybox.Application as App;
 using Toybox.Math as Math;
 using Toybox.ActivityMonitor as Am;
 using Toybox.Time.Gregorian as Date;
-using Toybox.Activity as A;
+using Toybox.Activity as Acty;
 
 class The_RunnerView extends Ui.WatchFace {
 
@@ -31,6 +31,9 @@ class The_RunnerView extends Ui.WatchFace {
     //! Update the view
     function onUpdate(dc) {    	
     	var fgClr = App.getApp().getProperty("FgColor");
+    	if (fgClr == null) {
+    		fgClr = Gfx.COLOR_WHITE;
+    	}
     	
     	//! get some basic screen dimensions and coords
 		var wid = dc.getWidth();
@@ -111,7 +114,9 @@ class The_RunnerView extends Ui.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
-        dc.drawBitmap(cX - iBadge.getWidth()/2, cY+70, iBadge);
+        if (Sys.getDeviceSettings().phoneConnected) {
+        	dc.drawBitmap(cX - iBadge.getWidth()/2, cY+70, iBadge);
+        }
         
         //!
         //! Battery indicator
@@ -120,10 +125,10 @@ class The_RunnerView extends Ui.WatchFace {
     	var arcEnd	 	= 90-(batt*3.6);
     	var x		 	= cX-45;
     	var y			= cY+45;
-    	var radius		= 30;
+    	var radius		= 27;
     	
-    	var battClr = Gfx.COLOR_RED;
-    	if (batt <= 50) { battClr = Gfx.COLOR_GREEN; }
+    	var battClr = Gfx.COLOR_GREEN;
+    	//if (batt <= 50) { battClr = Gfx.COLOR_GREEN; }
     	if (batt <= 30) { battClr = Gfx.COLOR_YELLOW; }
     	if (batt <= 15) { battClr = Gfx.COLOR_RED; }
     	dc.setPenWidth(1);
@@ -144,7 +149,7 @@ class The_RunnerView extends Ui.WatchFace {
     	arcEnd	 	= 90-(360*pctCmplt);
     	x		 	= cX+45;
     	y			= cY+45;
-    	radius		= 30;
+    	radius		= 27;
     	
     	dc.setPenWidth(1);
 		dc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_DK_GRAY);
@@ -161,7 +166,7 @@ class The_RunnerView extends Ui.WatchFace {
 		
     	//!
     	//! The thin blue line
-		//! Gold - 0xFFD700
+		//!
     	dc.setColor(Gfx.COLOR_DK_BLUE, Gfx.COLOR_DK_GRAY);
     	dc.fillRectangle(-5, cY-3.5, wid+5, 7);
     	dc.setPenWidth(2);
@@ -169,24 +174,45 @@ class The_RunnerView extends Ui.WatchFace {
         dc.drawRectangle(-5, cY-4, wid+7, 8);
     
     	//! Move bar
-		/*var mvLevel	  = actvInfo.moveBarLevel;
-		var mvBarTop  = cY - 72;
-		var mvBarHght = 142;
+		var mvLevel = actvInfo.moveBarLevel;
 		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
-		dc.setPenWidth(1);
-        dc.drawRectangle(cX - 3.5, mvBarTop, 7, mvBarHght);
+		dc.setPenWidth(5);
         dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_DK_GRAY);
-        dc.fillRectangle(cX-2.5, 
-        				(cY + 69) - (28 * mvLevel),
-        				 5,
-        				(28 * mvLevel));*/
         
         //ARC_COUNTER_CLOCKWISE = 0
 		//ARC_CLOCKWISE = 1
-		/*dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_DK_GRAY);
-		for(var i = 15; i < 360; i += 60) {
-        	dc.drawArc(cX, cY, cX, 0, i, (i + 30));
-        }*/
+		arcStart = 180;
+		arcEnd	 = arcStart - mvLevel*36;
+		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
+		dc.setPenWidth(5);
+		if (mvLevel > 0) {
+			if (mvLevel == 5) {
+				dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_BLACK);
+			}
+			dc.drawArc(cX, cY, cX-1, 1, arcStart, arcEnd);
+			Sys.println(arcEnd);
+		}
+		
+		var alt = "";
+		var units = "";
+        if( Acty.getActivityInfo().altitude != null ) {        		
+			if(Sys.getDeviceSettings().elevationUnits == Sys.UNIT_METRIC)
+				{
+				alt = Acty.getActivityInfo().altitude.toFloat();
+				alt = alt.format( "%.0d" );			
+				units = " m"; 	
+			} else {
+				alt = Acty.getActivityInfo().altitude.toFloat() * 3.2808399;
+				alt = alt.format( "%.0d" );			
+ 				units = " ft"; 
+			} 
+		}else{	
+			alt = "No data";
+		}
+		
+		dc.setColor(fgClr, Gfx.COLOR_TRANSPARENT); 
+		dc.drawText(wid/4 - 10, 60,Gfx.FONT_XTINY, "Altitude", Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(wid/4 - 10, 74,Gfx.FONT_XTINY, alt + units, Gfx.TEXT_JUSTIFY_CENTER);
     }
     
     function drawDist(dc, arcEnd, x, y, radius, fgClr) {
