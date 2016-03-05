@@ -88,18 +88,29 @@ class The_RunnerView extends Ui.WatchFace {
     	vDate.setColor(fgClr); 
     	
     	//!
-    	//! Step data
+    	//! Activity data
 		//!
     	var actvInfo	= Am.getInfo();
-    	var curSteps	= actvInfo.steps;
+    	var steps		= actvInfo.steps;
     	var stepGoal	= actvInfo.stepGoal;
-    	var pctCmplt	= curSteps.toFloat() / stepGoal.toFloat();
+    	var pctCmplt	= steps.toFloat() / stepGoal.toFloat();
+    	var distanceKm	= actvInfo.distance.toFloat() / 100000;
+		var distanceMi	= distanceKm * 0.6213;		
+		var sDistance	= distanceKm.format("%.02f") + " Km";
+		
+		if (Sys.getDeviceSettings().distanceUnits == Sys.UNIT_STATUTE) {
+			sDistance = distanceMi.format("%.02f") + " Mi";
+		}	
     	
-    	var vCurSteps	= View.findDrawableById("CurStps");
+    	var vSteps	= View.findDrawableById("CurStps");
+    	vSteps.setText(steps.toString());
+    	vSteps.setColor(fgClr);
+    	vSteps.setLocation(cX+45, cY+34);
     	
-    	vCurSteps.setText(curSteps.toString());
-    	vCurSteps.setColor(fgClr);
-    	vCurSteps.setLocation(cX+45, cY+34);
+    	var vDist	= View.findDrawableById("Dist");
+    	vDist.setText(sDistance);
+    	vDist.setColor(fgClr);
+    	vDist.setLocation(cX + 70, 74);
     	
     	//!
     	//! Battery data
@@ -114,6 +125,9 @@ class The_RunnerView extends Ui.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         
+        dc.setColor(fgClr, Gfx.COLOR_TRANSPARENT);
+    	dc.drawText(cX + 70, 60, Gfx.FONT_XTINY, "Distance", Gfx.TEXT_JUSTIFY_CENTER);
+    	
         if (Sys.getDeviceSettings().phoneConnected) {
         	dc.drawBitmap(cX - iBadge.getWidth()/2, cY+70, iBadge);
         }
@@ -193,6 +207,9 @@ class The_RunnerView extends Ui.WatchFace {
 			Sys.println(arcEnd);
 		}
 		
+		//!
+		//! Altitude data
+		//!
 		var alt = "";
 		var units = "";
         if( Acty.getActivityInfo().altitude != null ) {        		
@@ -211,8 +228,8 @@ class The_RunnerView extends Ui.WatchFace {
 		}
 		
 		dc.setColor(fgClr, Gfx.COLOR_TRANSPARENT); 
-		dc.drawText(wid/4 - 10, 60,Gfx.FONT_XTINY, "Altitude", Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText(wid/4 - 10, 74,Gfx.FONT_XTINY, alt + units, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(cX - 70, 60,Gfx.FONT_XTINY, "Altitude", Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText(cX - 70, 74,Gfx.FONT_XTINY, alt + units, Gfx.TEXT_JUSTIFY_CENTER);
     }
     
     function drawDist(dc, arcEnd, x, y, radius, fgClr) {
