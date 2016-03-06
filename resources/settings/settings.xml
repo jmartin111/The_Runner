@@ -1,9 +1,11 @@
 <settings>
  <setting propertyKey="@Properties.FgColor" title="@Strings.ForegroundColorTitle">
         <settingConfig type="list">
-            <listEntry value="0x660000">@Strings.ColorDkRed</listEntry>
+            <listEntry value="0x00AAFF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
+            <listEntry value="0xAAAAAA">@Strings.ColorLightGray</listEntry>
             <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0xFFAA00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0xFFAA00">@Strings.ColorYellow</listEntry>            
         </settingConfig>
     </setting>
 </settings>

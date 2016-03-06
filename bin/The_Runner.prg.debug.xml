@@ -152,40 +152,40 @@
 <entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="7" pc="268438708" symbol="initialize"/>
 <entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="20" pc="268438735" symbol="getInitialView"/>
 <entry filename="C:\\Users\\Jeff\\_my_garmin_workspace\\The_Runner\\source\\The_RunnerApp.mc" lineNum="25" pc="268438775" symbol="onSettingsChanged"/>
-<entry filename="Rez" lineNum="25" pc="268438794" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="26" pc="268438819" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="27" pc="268438846" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="29" pc="268438862" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="30" pc="268438876" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="31" pc="268438973" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="32" pc="268438988" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="33" pc="268439040" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="34" pc="268439086" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="35" pc="268439100" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="36" pc="268439197" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="37" pc="268439212" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="38" pc="268439264" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="39" pc="268439310" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="40" pc="268439324" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="41" pc="268439421" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="42" pc="268439436" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="43" pc="268439488" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="44" pc="268439534" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="45" pc="268439548" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="46" pc="268439645" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="47" pc="268439660" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="48" pc="268439712" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="49" pc="268439758" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="50" pc="268439772" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="51" pc="268439869" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="52" pc="268439884" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="53" pc="268439936" symbol="WatchFace"/>
-<entry filename="Rez" lineNum="54" pc="268439982" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268438794" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="27" pc="268438819" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268438846" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="30" pc="268438862" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="31" pc="268438876" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="32" pc="268438973" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="33" pc="268438988" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="34" pc="268439040" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="35" pc="268439086" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="36" pc="268439100" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="37" pc="268439197" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="38" pc="268439212" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="39" pc="268439264" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="40" pc="268439310" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="41" pc="268439324" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="42" pc="268439421" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="43" pc="268439436" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="44" pc="268439488" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="45" pc="268439534" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="46" pc="268439548" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="47" pc="268439645" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="48" pc="268439660" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="49" pc="268439712" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="50" pc="268439758" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="51" pc="268439772" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="52" pc="268439869" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="53" pc="268439884" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="54" pc="268439936" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="55" pc="268439982" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry field="true" id="16" symbol="ColorDarkGray"/>
+<entry field="true" id="18" symbol="ColorDarkGray"/>
 <entry id="11" module="true" symbol="Menus"/>
-<entry field="true" id="20" symbol="AppName"/>
+<entry field="true" id="21" symbol="AppName"/>
 <entry id="10" object="true" symbol="The_RunnerApp"/>
 <entry field="true" id="14" symbol="LauncherIcon"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
@@ -195,15 +195,16 @@
 <entry field="true" id="19" symbol="ColorWhite"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="8389347" symbol="color"/>
+<entry field="true" id="15" symbol="ColorLightGray"/>
 <entry id="12" module="true" symbol="Layouts"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="22" method="true" symbol="drawDist"/>
+<entry id="23" method="true" symbol="drawDist"/>
 <entry id="8" object="true" symbol="The_RunnerView"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry id="23" method="true" symbol="calcCircumCoords"/>
+<entry id="24" method="true" symbol="calcCircumCoords"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-<entry id="24" method="true" symbol="dToR"/>
-<entry field="true" id="18" symbol="ColorYellow"/>
+<entry id="25" method="true" symbol="dToR"/>
+<entry field="true" id="20" symbol="ColorYellow"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8388641" module="true" symbol="Math"/>
@@ -211,17 +212,17 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
 <entry id="8388769" module="true" symbol="Rez"/>
-<entry id="21" symbol="iBadge"/>
+<entry field="true" id="16" symbol="ColorBlue"/>
+<entry id="22" symbol="iBadge"/>
 <entry id="8389348" symbol="font"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="9" object="true" symbol="Background"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="17" symbol="ColorDkRed"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389180" method="true" symbol="drawPoint"/>
-<entry field="true" id="15" symbol="ForegroundColorTitle"/>
+<entry field="true" id="17" symbol="ForegroundColorTitle"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 </symbolTable>
@@ -275,6 +276,7 @@
 <entry endPc="268440049" name="rez_cmp_local_label_DateLabel_font" stackId="6" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_TimeLabel" stackId="4" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_CurStps" stackId="10" startPc="268438794"/>
+<entry endPc="268440049" name="rez_cmp_local_custom_drawable_AFD6KP276BGW7PLF5XZG" stackId="2" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_DateLabel_fontHeight" stackId="8" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_Dist_fontHeight" stackId="17" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_Battery" stackId="13" startPc="268438794"/>
@@ -284,7 +286,6 @@
 <entry endPc="268440049" name="rez_cmp_local_label_CurStps_font" stackId="9" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_Dist_font" stackId="15" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_Battery_fontHeight" stackId="14" startPc="268438794"/>
-<entry endPc="268440049" name="rez_cmp_local_custom_drawable_TAA8AJPEXGZJSEKO4BIX" stackId="2" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_TimeLabel_font" stackId="3" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_TimeLabel_fontHeight" stackId="5" startPc="268438794"/>
 <entry endPc="268440049" name="rez_cmp_local_label_Battery_font" stackId="12" startPc="268438794"/>
